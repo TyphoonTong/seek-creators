@@ -1,0 +1,40 @@
+{
+  "name": "seek-creators",
+  "version": "0.1.0",
+  "description": "\u627e\u521b\u4f5c\u8005 \u2014 open-source thin CLI + MCP stdio adapter for SeekMe Creator MCP / registry (deep-link to personal pages, not a marketplace).",
+  "type": "module",
+  "bin": {
+    "seek-creators": "./bin/seek-creators.mjs",
+    "seek-creators-mcp": "./bin/seek-creators-mcp.mjs"
+  },
+  "scripts": {
+    "smoke-mcp": "node scripts/smoke-mcp.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "files": [
+    "bin",
+    "src",
+    "scripts",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "seekme",
+    "mcp",
+    "creator",
+    "cli",
+    "stdio"
+  ],
+  "license": "MIT",
+  "author": "TyphoonTong",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TyphoonTong/seek-creators.git"
+  },
+  "homepage": "https://github.com/TyphoonTong/seek-creators"
+}
